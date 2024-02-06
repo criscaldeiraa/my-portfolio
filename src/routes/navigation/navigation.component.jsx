@@ -13,9 +13,6 @@ const Navigation = () => {
                     <span className='logo'>Cristina T.</span>
                 </Link>
                 <div className='nav-links-container'>
-                    <Link className='nav-link home' to='/'>
-                        home
-                    </Link>
                     <Link className='nav-link skills' to='/skills'>
                         skills
                     </Link>
