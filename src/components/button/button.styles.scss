@@ -1,0 +1,47 @@
+.button-container { 
+    min-width: 160px; 
+    width: auto; 
+    height: auto;
+    letter-spacing: 0.5px; 
+    line-height: 40px; 
+    padding: 0 15px 0 15px; 
+    font-size: 15px; 
+    background-color: var(--secondary-color);
+    color: var(--text-color-4);
+    font-weight: bolder; 
+    border: none; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    
+    &:hover { 
+        background-color: var(--third-color); 
+        color: var(--text-color); 
+        border: none; 
+    } 
+    
+    &.inverted { 
+        background-color: var(--primary-color); 
+        color: var(--text-color); 
+        border: none; 
+        
+        &:hover { 
+            background-color: var(--third-color); 
+            color: var(--text-color); 
+            border: none; 
+        } 
+    }
+
+    &.color {
+        background-color: var(--third-color); 
+        color: var(--text-color); 
+        border: none; 
+        
+        &:hover { 
+            background-color: var(--secondary-color); 
+            color: var(--text-color-4); 
+            border: none; 
+        } 
+    }
+
+}

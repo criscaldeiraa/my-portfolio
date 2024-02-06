@@ -2,10 +2,10 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import Typewriter from "typewriter-effect";
 
+import Button from "../../components/button/button.component";
+
 import profile from '../../assets/images/profile.jpeg'
 import './home.styles.css';
-
-
 
 const Home = () => {
     return (
@@ -31,16 +31,16 @@ const Home = () => {
                     />
                     </h3>
                     <p>I am a Web Developer with experience in the front end and back end</p>
-                    <div>
-                        <Link to="/portfolio">
-                            <div>
-                            My Portfolio
-                            </div>
-                        </Link>
+                    <div className="button-links">
                         <Link to="/contact-me">
-                            <div>
+                            <Button buttonType='color'>
                             Contact Me
-                            </div>
+                            </Button>
+                        </Link>
+                        <Link to="/portfolio">
+                            <Button>
+                            Download my CV
+                            </Button>
                         </Link>
                     </div>
                 </div>

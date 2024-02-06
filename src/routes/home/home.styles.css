@@ -1,7 +1,3 @@
-body {
-    height: 100%;
-}
-
 .container {
     display: flex;
     width: 100%;
@@ -54,4 +50,10 @@ img {
         width: auto;
     }
 
+}
+
+.button-links {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
 }

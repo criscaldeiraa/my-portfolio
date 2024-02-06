@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 
 .navigation { 
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+    background-color: rgba(189, 75, 75, 0.308);
     
     .logo-container {
-        padding: 25px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
     }
 
     .logo {
-        font-family: 'Protest Revolution', sans-serif;
-        font-size: 1.5em;
+        font-family: 'Marcellus', sans-serif;
+        font-size: 1.4em;
     }
     
     .nav-links-container {

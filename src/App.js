@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
-import Navigation from './routes/navigation/navigation.component.jsx';
+import Navigation from './components/navigation/navigation.component.jsx';
 import Home from './routes/home/home.component.jsx';
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,6 +15,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='skills' />
       </Routes>
+      
     </div>
   );
 }

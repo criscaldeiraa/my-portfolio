@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Raleway&display=swap');
+
 :root {
     --bg-color: #0c0c0c;
     --primary-color: #0d0d0d;
     --secondary-color: #EEEEEE;
+    --third-color: rgb(189, 75, 75);
     --text-color: #EEEEEE;
     --text-color-2: #EFB7B7;
     --text-color-3: #BD4B4B;
+    --text-color-4: #0d0d0d;
     --overlay-color: rgb(12 12 12 / 63%);
   }
   

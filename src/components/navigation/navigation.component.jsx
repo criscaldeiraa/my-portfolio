@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './navigation.styles.scss';
 
-import '../../assets/fonts/Protest_Revolution/ProtestRevolution-Regular.ttf'
-
 const Navigation = () => {
     return (
         <Fragment>
