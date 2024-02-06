@@ -1,0 +1,29 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    margin-top: 35px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: -15px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 15px;
+}
+
+.credits {
+    font-size: 15px;
+    
+}
+

@@ -2,20 +2,19 @@ import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import Navigation from './components/navigation/navigation.component.jsx';
 import Home from './routes/home/home.component.jsx';
+import Socials from './components/footer-socials/footer-socials.component.jsx';
 
-import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Navigation />
       <Routes>
-        {/* <Route path='/' element={<Navigation />} > */}
           <Route path='/' element={<Home />} />
           <Route path='skills' />
       </Routes>
-      
+      <Socials />
     </div>
   );
 }
