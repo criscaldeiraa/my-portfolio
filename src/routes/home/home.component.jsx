@@ -30,16 +30,16 @@ const Home = () => {
                         }}
                     />
                     </h3>
-                    <p>I am a Web Developer with experience in the front end and back end</p>
+                    <p className="description">I am a Web Developer with experience in the front end and back end</p>
                     <div className="button-links">
-                        <Link to="/contact-me">
+                        <Link to="/portfolio">
                             <Button buttonType='color'>
-                            Contact Me
+                            Download my CV
                             </Button>
                         </Link>
-                        <Link to="/portfolio">
-                            <Button>
-                            Download my CV
+                        <Link to="/contact-me">
+                            <Button >
+                            Contact Me
                             </Button>
                         </Link>
                     </div>

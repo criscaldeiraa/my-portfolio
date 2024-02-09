@@ -6,7 +6,7 @@
     --secondary-color: #EEEEEE;
     --third-color: rgb(189, 75, 75);
     --text-color: #EEEEEE;
-    --text-color-2: #EFB7B7;
+    --text-color-2: rgb(239, 183, 183);
     --text-color-3: #BD4B4B;
     --text-color-4: #0d0d0d;
     --overlay-color: rgb(12 12 12 / 63%);
@@ -55,3 +55,4 @@ p {
     word-break: break-word;
     hyphens: auto;
 }
+

@@ -1,10 +1,9 @@
-
 .navigation { 
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(189, 75, 75, 0.308);
+    background-color: rgba(239, 183, 183, 0.5);
     
     .logo-container {
         display: flex;
@@ -23,10 +22,19 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        margin-right: 15px;
         
         .nav-link {
-            padding: 10px 15px;
+            padding: 0;
             cursor: pointer;
         }
+    }
+
+    .logo-container:hover, .logo:hover {
+        color: var(--text-color);
+    }
+
+    .nav-link:hover {
+        color: var(--text-color-4);
     }
 }
