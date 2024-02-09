@@ -25,7 +25,7 @@ const Navigation = () => {
     return (
         <Fragment>
             <div className='navigation'>
-                <Link className='logo-container' to='/'>
+                <Link className='logo-container' to='/my-portfolio'>
                     <span className='logo'>Cristina T.</span>
                 </Link>
                 <div className='nav-links-container'>

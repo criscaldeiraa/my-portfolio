@@ -19,25 +19,30 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
+const skills = [
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "JavaScript",
         value: 80,
     },
     {
-        name: "React",
+        name: "Node.js",
+        value: 75,
+    },
+    {
+        name: "React.js",
+        value: 70,
+    },
+    {
+        name: "Express.js",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Postgres",
+        value: 75,
+    },
+    {
+        name: "Git/GitHub",
+        value: 90,
     },
 ];
 
