@@ -76,7 +76,10 @@ const Contact = () => {
         <div>
             <div className="contact-flex">
                 <div className="contact-info">
-                    <p className="info-text">{contactConfig.description}</p>
+                    <p className="info-text">Whether you're a recruiter, potential collaborator, or just someone interested in reaching out, you're in the right place.</p> 
+                    <p className="info-text">Feel free to drop me a message using the form below, or reach out to me directly via the contact information provided.</p>
+                    <p className="info-text">I'm always eager to connect and explore new opportunities, so don't hesitate to get in touch.</p>
+                    <p className="info-text">Looking forward to hearing from you!</p>
                     <address>
                         <p><strong>Email:</strong>{" "}{contactConfig.YOUR_EMAIL}</p>
                         <br />

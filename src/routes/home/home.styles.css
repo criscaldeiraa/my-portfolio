@@ -52,12 +52,18 @@ img {
 
 }
 
+
 .button-links {
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
 }
 
+.description-container {
+    margin: 15px 0;
+    padding-right: 10px;
+}
+
 .description {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }

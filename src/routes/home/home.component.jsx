@@ -20,9 +20,9 @@ const Home = () => {
                     <Typewriter
                         options={{
                         strings: [
-                            'I love coding',
-                            'Responsive Designs',
-                            'I Develope web apps',
+                            'Web Development',
+                            'React Applications',
+                            'Front and Back End Development',
                         ],
                         autoStart: true,
                         loop: true,
@@ -30,7 +30,11 @@ const Home = () => {
                         }}
                     />
                     </h3>
-                    <p className="description">I am a Web Developer with experience in the front end and back end</p>
+                    <div className="description-container">
+                        <p className="description">As a skilled web developer proficient in React.js and experienced in front-end and back-end development, I specialize in crafting dynamic and user-friendly digital experiences.</p>
+                        <p className="description">Whether you're seeking a modern website, a robust web application, or anything in between, I'm here to bring your vision to life.</p>
+                        <p className="description">Explore my work and feel free to reach out — I'm excited to collaborate and help bring your projects to fruition.</p>
+                    </div>
                     <div className="button-links">
                         <Link to="/portfolio">
                             <Button buttonType='color'>
