@@ -1,5 +1,5 @@
 import './my-work.styles.css';
-import { dataportfolio } from "../../content";
+import { dataportfolio, dataportfolio1, dataportfolio2 } from "../../content";
 
 
 const MyWork = () => {
@@ -16,15 +16,14 @@ const MyWork = () => {
                 <h3>Best Projects</h3>
             </div>
             <div className="port-container">
-
                 {dataportfolio.map((data, i) => {
                     return (
                     <div key={i} className="port-item">
-                        <img src={data.img} alt="" />
+                        <img src={data.img} alt={data.description} />
                         <div className="content">
-                        <p>{data.description}</p>
-                        <a className='item-link code' href={data.codeLink}>view code</a>
-                        <a className='item-link website' href={data.websiteLink}>view website</a>
+                            <p>{data.description}</p>
+                            <a className='item-link code' href={data.codeLink}>view code</a>
+                            <a className='item-link website' href={data.websiteLink}>view website</a>
                         </div>
                     </div>
                     );
@@ -36,10 +35,10 @@ const MyWork = () => {
             </div>
             <div className="port-container">
 
-                {dataportfolio.map((data, i) => {
+                {dataportfolio1.map((data, i) => {
                     return (
                     <div key={i} className="port-item">
-                        <img src={data.img} alt="" />
+                        <img src={data.img} alt={data.description} />
                         <div className="content">
                         <p>{data.description}</p>
                         <a className='item-link code' href={data.codeLink}>view code</a>
@@ -55,10 +54,10 @@ const MyWork = () => {
             </div>
             <div className="port-container">
 
-                {dataportfolio.map((data, i) => {
+                {dataportfolio2.map((data, i) => {
                     return (
                     <div key={i} className="port-item">
-                        <img src={data.img} alt="" />
+                        <img src={data.img} alt={data.description} />
                         <div className="content">
                         <p>{data.description}</p>
                         <a className='item-link code' href={data.codeLink}>view code</a>

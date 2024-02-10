@@ -1,6 +1,11 @@
+import robofriends from "./assets/projects-img/robofriends.png";
+import chucknorris from "./assets/projects-img/chucknorris.png";
+import snake from "./assets/projects-img/snake.png";
+import backgroundgenerator from "./assets/projects-img/backgroundgenerator.png";
+
 const dataabout = {
     title: "a bit about my self",
-    aboutme: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am a 22-year-old who spends my days coding, going to the gym and playing futsal, and reading. Although I consider myself to be a boring and normal person, I discovered that knowing how to program gives me the power to make anything possible and solve any problem - it's mind-blowing! In 2022, I began teaching myself coding, and now I am a Computer Science student at Universidade Aberta in Portugal. My ultimate goal is to become a Software Engineer, capable of tackling any bug that comes my way :)",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -47,91 +52,69 @@ const skills = [
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Development",
+        description: "Create modern, responsive websites tailored to clients' specific needs using React.js for front-end development and incorporating your back-end expertise for functionality.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Application Development",
+        description: "Develop dynamic and interactive web applications using React.js for the front end and leveraging your back-end development skills to build robust and scalable systems.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "API Development and Integration",
+        description: "Build RESTful APIs and integrate them into websites and applications to enable communication between different systems and services.",
     },
+    {
+        title: "E-commerce Solutions",
+        description: "Develop custom e-commerce platforms or integrate e-commerce functionality into existing websites, utilizing React.js for front-end development and integrating payment gateways and shopping cart functionalities on the back end.",
+    },
+    {
+        title: "E-commerce Solutions",
+        description: "Develop custom e-commerce platforms or integrate e-commerce functionality into existing websites, utilizing React.js for front-end development and integrating payment gateways and shopping cart functionalities on the back end.",
+    },
+    
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
+        img: robofriends,
+        description: "Robo Friends",
+        codeLink: "https://github.com/criscaldeiraa/robofriends",
+        websiteLink: "https://criscaldeiraa.github.io/robofriends/"
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
+        description: "Ecommerce Store (in construction)",
+        codeLink: "https://github.com/criscaldeiraa/crwn-clothing",
+        websiteLink: "https://github.com/criscaldeiraa/crwn-clothing"
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
-    },
+];
 
+const dataportfolio1 = [
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
+        img: chucknorris,
+        description: "Chuck Norris Best Jokes",
+        codeLink: "https://github.com/criscaldeiraa/chuck-norris-jokes",
+        websiteLink: "https://criscaldeiraa.github.io/chuck-norris-jokes/"
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
+        img: backgroundgenerator,
+        description: "Background Generator",
+        codeLink: "https://github.com/criscaldeiraa/background-generator-ZTM-Exercise",
+        websiteLink: "https://criscaldeiraa.github.io/background-generator-ZTM-Exercise/"
     },
+];
+
+const dataportfolio2 = [
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
+        description: "Tic Tac Toe Game",
+        codeLink: "https://github.com/criscaldeiraa/tic-tac-toe",
+        websiteLink: "https://criscaldeiraa.github.io/tic-tac-toe/"
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        codeLink: "#",
-        websiteLink: "#"
+        img: snake,
+        description: "Snake Game",
+        codeLink: "https://github.com/criscaldeiraa/snake-game",
+        websiteLink: "https://criscaldeiraa.github.io/snake-game/"
     },
 ];
 
@@ -151,6 +134,8 @@ const socialprofils = {
 export {
     dataabout,
     dataportfolio,
+    dataportfolio1,
+    dataportfolio2,
     worktimeline,
     skills,
     services,
