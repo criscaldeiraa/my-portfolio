@@ -4,7 +4,8 @@ import Typewriter from "typewriter-effect";
 
 import Button from "../../components/button/button.component";
 
-import profile from '../../assets/images/profile.jpeg'
+import profile from '../../assets/images/profile.jpeg';
+import CV from '../../assets/CV.pdf';
 import './home.styles.css';
 
 const Home = () => {
@@ -36,11 +37,11 @@ const Home = () => {
                         <p className="description">Explore my work and feel free to reach out — I'm excited to collaborate and help bring your projects to fruition.</p>
                     </div>
                     <div className="button-links">
-                        <Link to="/portfolio">
+                        <a href={CV} target="_blank" rel="noreferrer" >
                             <Button buttonType='color'>
                             Download my CV
                             </Button>
-                        </Link>
+                        </a>
                         <Link to="/contact-me">
                             <Button >
                             Contact Me
