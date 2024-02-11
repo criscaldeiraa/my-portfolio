@@ -2,6 +2,7 @@ import robofriends from "./assets/projects-img/robofriends.png";
 import chucknorris from "./assets/projects-img/chucknorris.png";
 import snake from "./assets/projects-img/snake.png";
 import backgroundgenerator from "./assets/projects-img/backgroundgenerator.png";
+import tictactoe from "./assets/projects-img/tictactoe.png";
 
 const dataabout = {
     title: "a bit about my self",
@@ -67,10 +68,6 @@ const services = [{
         title: "E-commerce Solutions",
         description: "Develop custom e-commerce platforms or integrate e-commerce functionality into existing websites, utilizing React.js for front-end development and integrating payment gateways and shopping cart functionalities on the back end.",
     },
-    {
-        title: "E-commerce Solutions",
-        description: "Develop custom e-commerce platforms or integrate e-commerce functionality into existing websites, utilizing React.js for front-end development and integrating payment gateways and shopping cart functionalities on the back end.",
-    },
     
 ];
 
@@ -105,7 +102,7 @@ const dataportfolio1 = [
 
 const dataportfolio2 = [
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: tictactoe,
         description: "Tic Tac Toe Game",
         codeLink: "https://github.com/criscaldeiraa/tic-tac-toe",
         websiteLink: "https://criscaldeiraa.github.io/tic-tac-toe/"
